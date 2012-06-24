@@ -2,5 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/fluent-hc-4.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/20120624webdav4svn/lib/doc/httpclient-4.2-src.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/httpclient-cache-4.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
